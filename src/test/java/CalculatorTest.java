@@ -6,7 +6,7 @@ class CalculatorTest {
     @Test
     void testAdd() {
         Calculator calc = new Calculator();
-        assertEquals(35, calc.add(10, 20)); // Will fail: expected 35, actual 30
+        assertEquals(30, calc.add(10, 20)); // Will fail: expected 35, actual 30
     }
 
     @Test
